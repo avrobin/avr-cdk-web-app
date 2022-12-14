@@ -9,6 +9,7 @@ import * as ec2 from 'aws-cdk-lib/aws-ec2'
 import * as autoscaling from 'aws-cdk-lib/aws-autoscaling'
 import * as loadbalancing from 'aws-cdk-lib/aws-elasticloadbalancingv2'
 import { NagSuppressions } from 'cdk-nag';
+declare var require: any
 const fs = require('fs');
 
 export class WebAppStack extends Stack {

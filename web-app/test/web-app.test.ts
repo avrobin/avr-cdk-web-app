@@ -6,7 +6,7 @@
 import * as cdk from 'aws-cdk-lib'
 import { Template, Match, Capture } from 'aws-cdk-lib/assertions'
 import * as WebApp from '../lib/web-app-stack'
-
+import {expect, jest, test} from '@jest/globals';
 
 describe('Web App Stack', () => {
 
@@ -19,5 +19,3 @@ describe('Web App Stack', () => {
   })
 
 })
-
-
